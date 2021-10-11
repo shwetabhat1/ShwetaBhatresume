@@ -1,0 +1,404 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background: #efefef;
+	font-family: inherit;
+}
+.profile-img
+{
+	width: 40%;
+	
+	float: right;
+}
+.profile-img img
+{
+	width: 100%;
+	height: 100%;	
+}
+/*
+.about
+{
+	margin-left: 15px;
+	font-size: 35px;
+}
+*/
+.profile-info
+{
+	width: 60%;
+	height: 100vh;
+	float: left;
+	padding: 0 30px;
+	overflow: scroll;
+	overflow-x: hidden;
+}
+.profile-info::-webkit-scrollbar
+{
+	width: 0px;
+}
+.profile-info h1
+{
+	font-size: 40px;
+	margin-top: 50px;
+	margin-bottom: 30px;
+	margin-left: 15px;
+	text-align: center;
+}
+.social-media img
+{
+	height: 20px;
+	margin-right: 15px;
+	text-align: center;
+}
+.social-media
+{
+	margin-top: 40px;
+	margin-left: 45px;
+	margin-bottom: 40px;
+	font-size: 20px;
+	text-align: center;
+}
+.social img
+{
+	height: 25px;
+	margin-top: 25px;
+	margin-right: 15px;
+	text-align: center;
+	
+}
+.social
+{
+	
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 35px;
+}
+	
+.objective h2
+{
+	font-family:inherit;
+	font-size: 25px;
+	margin-top: 25px;
+	margin-bottom: 1px;
+	margin-left: 15px;
+	text-align: center;	
+}
+.objective
+{
+	font-size: 20px;
+	margin-left: 15px;
+	text-align: center;
+	color: darkcyan;
+}
+/*
+.objec p
+{
+	margin-left: 15px;
+	font-family: inherit;
+	font-size: 25PX;
+}
+*/
+/*
+.objective
+{
+	display: inline-block;
+	width: 95%;
+	padding: 30px 1px;
+	margin: 2%;
+	text-align: left;
+	box-shadow: 0 0 15px 1px rgba(37,73,214,0,18);
+	background: white;
+	font-size: 25px;
+	margin-left: 15px;
+	text-align: center;
+	color: darkcyan;
+}
+*/
+/*
+.edu
+{
+  font-family: arial, sans-serif;
+  border-collapse:inherit;
+  width: 100%;
+	padding-bottom: 10px;
+}
+*/
+
+
+.td,th
+{
+  margin-left: 15px;
+  border: 14px GRAY;
+  text-align: left;
+	padding-bottom: 20px;
+	font-size: 20px;
+	
+}
+.td,tr
+{
+	font-size: 20px;
+	color: darkcyan;
+	
+}
+
+.tr:nth-child(even) 
+{
+  margin-left: 15px;
+  background-color: GRAY;
+}
+.education h2
+{
+	margin-top: 20px;
+	margin-bottom: 1px;
+	margin-left: 25px;
+	font-size: 30px;
+	font-family: inherit;
+	color: darkcyan;
+}
+.edu
+{
+	display: inline-block;
+	width: 99%;
+	padding: 30px 30px;
+	text-align: right;
+	
+	box-shadow: 0 0 15px 1px rgba(37,73,214,0,18);
+	background: white;
+	font-size: 10px;
+	color: darkcyan;
+}
+
+.education h2
+{
+	font-family:inherit;
+	font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+.projects img
+{
+	width: 65%;
+	width: 55%;
+	padding: 4px;
+	margin-bottom: 5px;
+	margin-left: 5px;
+	height: 20%;
+	text-align: center;
+}
+.projects
+{
+	display: inline-block;
+	width: 90%;
+	padding: 30px 30px;
+	margin: 2%;
+	text-align:center;
+	box-shadow: 0 0 15px 1px rgba(37,73,214,0,18);
+	background: white;
+	font-size: 10px;
+	color: darkcyan;
+}
+.pro h2
+{
+	font-family:inherit;
+	font-size: 20px;
+	margin-top: 25px;
+	margin-bottom: 1px;
+	margin-left: 15px;
+	color: darkcyan;
+	
+}
+.certi h2
+{
+	margin-top: 20px;
+	margin-bottom: 1px;
+	margin-left: 25px;
+	font-size: 20px;
+	font-family: inherit;
+	color: darkcyan;
+}
+.certificates img
+{
+	height: 27%;
+	margin: 5px;
+}
+.certificates
+{
+	display: inline-block;
+	width: 95%;
+	padding: 30px 10px;
+	margin: 2%;
+	text-align: center;
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+	background: white;
+}
+.certificates small
+{
+	padding-top: 10px;
+	display: block;
+	color: darkcyan;
+}
+.skills
+{
+	display: inline-block;
+	width: 90%;
+	padding: 30px 10px;
+	margin: 2%;
+	text-align: left;
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+	background: white;
+}
+.skills
+{
+	font-size: 20px;
+	margin-left: 20px;
+	text-align: left;
+	color: darkcyan;
+	
+}
+.skill h2
+{
+	margin-top: 20px;
+	margin-bottom: 1px;
+	margin-left: 25px;
+	font-size: 20px;
+	font-family: inherit;
+	color: darkcyan;
+}
+.lan h3
+{
+	margin-top: 40px;
+	margin-bottom: 1px;
+	margin-left: 25px;
+	font-size: 15px;
+	font-family: inherit;
+	color:darkcyan;
+}
+.int h2
+{
+	margin-top: 20px;
+	margin-bottom: 1px;
+	margin-left: 25px;
+	font-size: 20px;
+	font-family: inherit;
+	color: darkcyan;
+}
+.inte
+{
+	display: inline-block;
+	width: 95%;
+	padding: 30px 10px;
+	margin: 2%;
+	text-align: left;
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+	background: white;
+	font-size: 20px;
+	margin-left: 15px;
+	text-align: left;
+	color: darkcyan;
+		
+}
+/*
+.lang 
+{
+	display: inline-block;
+	width: 95%;
+	padding: 30px 10px;
+	margin: 2%;
+	text-align: center;
+	box-shadow: 0 0 15px 1px rgba(37, 73, 214, 0.18);
+	background: white;
+	font-size: 10px;
+	margin-left: 15px;
+	text-align: center;
+	color: darkcyan;
+	text-align: left;
+	
+}
+*/
+
+@media only screen and (max-width:900px){
+	.profile-info
+	{
+		width: 100%;
+		overflow: inherit;
+	}
+	.profile-img
+	{
+		width: 100%;
+	}
+}
+
+.decl h2
+{
+	font-family:inherit;
+	font-size: 25 px;
+	margin-top: 25px;
+	margin-bottom: 1px;
+	margin-left: 15px;
+	text-align: center;	
+}
+.decl
+{
+	font-size: 20px;
+	margin-left: 15px;
+	text-align: center;
+	color: darkcyan;
+}
+@media(max-width:700px){
+	.decl{
+		font-size: 10px;
+	}
+	.inte{
+		font-size: 10px;
+	}
+	.skill{
+		font-size: 10px;
+	}
+	.edu{
+		font-size: 10px;
+	}
+	.social-media{
+		font-size: 10px;
+	}
+	.skills{
+		font-size: 10px;
+	}
+	.td, tr{
+		font-size: 10px;
+	}
+	.td, th{
+		font-size: 15px;
+	}
+	.objective{
+		font-size: 10px;
+	}
+	.profile-info h1
+	{
+	font-size: 30px;
+	}
+	.objective h2
+	{
+		font-size: 17px;
+	}
+	.education h2
+	{
+		font-size: 17px;
+	}
+	.int h2
+	{
+		font-size: 17px;
+	}
+	.certi h2
+	{
+		font-size: 17px;
+	}
+	.skill h2{
+		font-size: 17px;
+	}	
+
+}
